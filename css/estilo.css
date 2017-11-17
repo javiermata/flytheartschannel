@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+
+body{
+	background:url(../image/logofly.png) no-repeat center 25%,  url(../image/fondocieloamarillo_mobile.jpg) no-repeat left top orange;
+	background-size: 55% auto, cover;
+	/*comentario*/
+}
+
+
+h1{
+	font-size: 48px;
+	position: absolute;
+	left: -500px;
+	top: -50px;
+}
+
+/*estilos version mobile que se heredan*/
+
+#btninicio{
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 6px;
+	text-decoration: none;
+	text-indent: 25px;
+	display: block;
+	width: 150px;
+	height: 30px;
+	padding-top: 10px;
+	line-height: 30px;
+	position: absolute;
+	right: 5%;
+	top: 0px;
+
+	transition: background-color .7s;
+}
+
+#btninicio:hover{
+	background-color: #ffde16;
+	color: black;
+}
+
+p#txtprincipal{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 60%;
+	line-height: 30px;
+	text-align: center;
+
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+
+body{
+	background:url(../image/logofly.png) no-repeat center 25%,  url(../image/fondocieloamarillo_tablet.jpg) no-repeat left top orange;
+	background-size: 270px auto, cover;
+	/*comentario*/
+}
+
+}/*fin de mediaquery con minimo de 480px*/
+
+
+
+@media screen and (min-width: 768px) {
+
+body{
+	background:url(../image/logofly.png) no-repeat center 25%,  url(../image/fondocieloamarillo_tablet.jpg) no-repeat left top orange;
+	background-size: 350px auto, cover;
+	/*comentario*/
+}
+
+p#txtprincipal{
+	top: 70%;
+
+
+}
+
+}/*fin de mediaquery con minimo de 768px*/
+
+
+
+@media screen and (min-width: 960px) {
+
+body{
+	background:url(../image/logofly.png) no-repeat center 25%,  url(../image/fondocieloamarillo.jpg) no-repeat left top orange;
+	background-size: 350px auto, cover;
+	/*comentario*/
+}
+
+p#txtprincipal{
+	top: 55%;
+	width: 350px;
+	text-align: left;
+	position: absolute;
+	left: 58%;
+	font-size: 14px;
+
+
+}
+
+}/*fin de mediaquery con minimo de 960px*/
+
+
+
+@media screen and (min-width: 1024px) {
+
+
+
+p#txtprincipal{
+	top: 55%;
+	width: 480px;
+	text-align: left;
+	position: absolute;
+	left: 58%;
+	font-size: 16px;
+
+
+}
+
+}/*fin de mediaquery con minimo de 1024px*/
+
+
+@media screen and (min-width: 1200px) {
+
+
+
+p#txtprincipal{
+	top: 50%;
+	width: 530px;
+	text-align: left;
+	position: absolute;
+	left: 58%;
+	font-size: 17px;
+
+
+}
+
+}/*fin de mediaquery con minimo de 1200px*/
