@@ -188,8 +188,14 @@ p.showhorario{
 
 }
 
-
-
+#comingsoon {
+  padding-top: 100px;
+  min-height: 200px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
 
 
 
@@ -203,6 +209,8 @@ footer{
 	width: 100%;
 	min-height: 27px;
 	line-height: 27px;
+	position: absolute;
+	bottom: 0;
 }
 
 
