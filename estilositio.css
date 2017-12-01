@@ -1,0 +1,745 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+#btnback{
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	display: none;
+}
+
+
+h1{
+	font-size: 48px;
+	position: absolute;
+	left: -500px;
+	top: -50px;
+}
+
+/*estilos version mobile que se heredan*/
+
+#logofly {
+	width:35%;
+	height: auto;
+	display: block;
+	margin: 25px auto;
+}
+
+
+nav{
+	background-color: black;
+	overflow: hidden;
+	
+}
+
+nav ul{
+	list-style-type: none;
+	overflow: inherit;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	display: block;
+	padding: 10px 0px;
+	margin: 2px 0px;
+	text-align: center;
+	width: 100%;
+	border-top: 1px solid white;
+	font-size: 15px;
+	line-height: 30px;
+	height: 40px;
+}
+
+nav ul li a:hover{
+	background-color: gray;
+}
+
+nav#social {
+	background-color: #fae14c;
+	padding: 3px 0px 0px;
+}
+
+.icosocial{
+	width: 32px;
+	height: 32px;
+	background-color: gray;
+	float: left;
+	margin: 8px;
+}
+
+#cajaicosocial{
+	overflow: hidden;
+	width: 192px;
+	margin: auto;
+}
+
+
+#icosocial1{
+	background: url(../image/socialfacebook.png) no-repeat left top;
+}
+
+#icosocial2{
+	background: url(../image/socialinst.png) no-repeat left top;
+}
+
+#icosocial3{
+	background: url(../image/socialtwitter.png) no-repeat left top;
+}
+
+#icosocial4{
+	background: url(../image/socialyoutube.png) no-repeat left top;
+}
+
+
+
+#shows{
+	background-color: black;
+	background: url(../image/fondoshows.jpg) no-repeat left top;
+	background-size: cover;
+	min-width: 320px;
+	width: 100%;
+
+}
+
+#blqshows {
+	background-color: black;
+	width: 100%; 
+}
+
+
+.imgshow {
+	min-width: 200px; 
+	width: 100%;
+
+}
+
+
+article.showsection{
+	font-family:'Montserrat', sans-serif;
+	width: 100%;
+	height: 290px;
+	margin: auto;
+	font-weight: 200;
+}
+
+
+article.showsection1{
+	
+	background-color: black;
+	color: #ffeb77;
+}
+
+article.showsection2{
+	background-color: #ffeb77;
+	color: black;
+}
+
+h2.showtitulo{
+	
+	font-weight: 200;
+	padding: 6px 0px;
+	text-indent: 12px;
+	text-transform: uppercase;
+}
+
+div.fotoshow{
+	display: none;
+	background: orange;
+	width: 260px;
+	height: 152px;
+}
+
+#fotoshow1{
+	background: url(../image/descriptionflyto_tablet.jpg) no-repeat left top;
+}
+
+#fotoshow2{
+	background: url(../image/descriptioncelebrarties_tablet.jpg) no-repeat left top;
+}
+
+#fotoshow3{
+	background: url(../image/descriptionvisiting_tablet.jpg) no-repeat left top;
+}
+
+#fotoshow4{
+	background: url(../image/descriptionartalk_tablet.jpg) no-repeat left top;
+}
+
+p.showparrafo{
+	font-size: 14px;
+	margin-top: 4px;
+	margin-left: 14px;
+	width: 90%;
+}
+
+
+p.showhorario{
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-left: 14px;
+
+}
+
+#comingsoon {
+  padding-top: 100px;
+  min-height: 200px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+	min-height: 27px;
+	line-height: 27px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+@media screen and (min-width: 320px) {
+
+#logofly {
+	width: 35%;
+	max-width: 200px;
+}
+
+}/*fin de mediaquery con minimo de 320px*/
+
+
+
+
+@media screen and (min-width: 480px) {
+
+nav ul li a{
+	display: block;
+	border: 1px solid black;
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+}
+
+}/*fin de mediaquery con minimo de 480px*/
+
+
+@media screen and (min-width: 520px) {
+
+#blqshows{
+	width: 520px;
+	margin: auto;
+	padding: 10px;
+}
+
+.imgshow{
+	width: 248px; 
+}
+
+
+div.fotoshow{
+	display: block;
+	margin: 16px;
+	float: left;
+}
+
+#fotoshow1,#fotoshow2,#fotoshow3,#fotoshow4{
+	
+	background-size: 260px 152px;
+}
+
+h2.showtitulo{
+	padding: 12px 0px;
+	font-weight: 200;
+	text-indent: 0px;
+}
+
+
+}/*fin de mediaquery con minimo de 520px*/
+
+
+@media screen and (min-width: 768px) {
+
+#btnback{
+	display: inline-block;
+}
+
+nav ul li a{
+	
+	
+	width: 15%;
+	margin-left: 1.4%;
+}
+
+div.fotoshow{
+	width: 439px;
+	height: 257px;
+}
+
+#fotoshow1,#fotoshow2,#fotoshow3,#fotoshow4{
+	
+	background-size: 439px 257px;
+}
+
+
+
+}/*fin de mediaquery con minimo de 768px*/
+
+
+@media screen and (min-width: 960px) {
+
+nav ul li a{
+	min-width: 15%;
+
+}
+
+#shows{
+	padding: 50px 0px 48px;
+}
+
+#blqshows{
+	width: 630px;
+	margin: auto;
+	padding: 10px 10px 8px 10px;
+}
+
+.imgshow{
+	width: 298px;
+	margin: 2px;
+}
+
+
+footer{
+	font-size: 17px;
+	min-height: 27px;
+	line-height: 39px;
+	height: 40px;
+}
+
+}/*fin de mediaquery con minimo de 960px*/
+
+
+@media screen and (min-width: 1024px) {
+
+
+#logofly {
+	width: 35%;
+	max-width: 175px;
+	margin: 25px 0px 50px 100px;
+}
+
+nav#principal{
+
+	width: 48%;
+	position: absolute;
+	top: 0px;
+	left: 330px;
+	z-index:100;
+}
+
+nav ul li a{
+
+	min-width: 16%;
+	height: 34px;
+	font-size: 13px;
+	margin-left: .5%;
+	line-height: 20px;
+
+}
+
+#barrasocial{
+	background: gray;
+	height: 38px;
+	width: 40%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+nav#social {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 168px;
+	height: 38px;
+}
+
+.icosocial{
+	width: 20px;
+	height: 20px;
+	background-color: gray;
+	float: left;
+	margin: 6px;
+}
+
+#icosocial1{
+	margin-left: 25px;
+	background-size: 18px auto;
+}
+
+#icosocial2{
+	background-size: 18px auto;
+}
+
+#icosocial3{
+	background-size: 20px auto;
+}
+
+#icosocial4{
+	background-size: 20px auto;
+}
+
+
+
+
+}/*fin de mediaquery con minimo de 1024px*/
+
+
+@media screen and (min-width: 1100px) {
+
+nav#principal{
+
+	width: 48%;
+	height: 45px;
+}
+
+#barrasocial{
+	height: 45px;
+
+}
+
+nav#social {
+	height: 45px;
+	width: 190px; 
+	}
+
+.icosocial{
+	width: 26px;
+	height: 26px;
+	background-color: gray;
+	float: left;
+	margin: 8px;
+}
+
+#icosocial1{
+	margin-left: 15px;
+	background-size: 26px auto;
+}
+
+#icosocial2{
+	background-size: 26px auto;
+}
+
+#icosocial3{
+	background-size: 26px auto;
+}
+
+#icosocial4{
+	background-size: 26px auto;
+}
+
+
+
+h2.showtitulo{
+	padding: 12px 0px;
+	font-size: 26px;
+	
+}
+
+p.showparrafo{
+	font-size: 18px;
+}
+
+
+p.showhorario{
+	font-size: 16px;
+	
+}
+
+
+
+}/*fin de mediaquery con minimo de 1100px*/
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+nav#principal{
+
+	width: 52%;
+	max-width: 900px;
+	height: 45px;
+}
+
+
+nav ul li a{
+	
+	font-size: 15px;
+	line-height: 30px;
+	height: 40px;
+}
+
+
+
+
+#blqshows{
+	width: 716px;
+	margin: auto;
+	padding: 10px 10px 8px 10px;
+}
+
+.imgshow{
+	width: 342px;
+	margin: 2px;
+}
+
+
+/*nav#social {
+	padding-left: 14px;
+	width: 195px;
+
+}*/
+
+.icosocial{
+	width: 26px;
+	height: 26px;
+	background-color: gray;
+	float: left;
+	margin: 8px;
+}
+
+#icosocial1{
+	margin-left: 15px;
+	background-size: 25px auto;
+}
+
+#icosocial2{
+	background-size: 25px auto;
+}
+
+#icosocial3{
+	background-size: 25px auto;
+}
+
+#icosocial4{
+	background-size: 25px auto;
+}
+
+
+
+}/*fin de mediaquery con minimo de 1200px*/
+
+
+
+@media screen and (min-width: 1400px) {
+
+
+
+#contenedor{
+	position: relative;
+	min-width: 1400px;
+	max-width: 1600px;
+	margin:0px auto;
+	top:-25px;
+	
+}
+
+
+#logofly {
+	position: relative;
+	top: 25px;
+}
+
+
+
+#barrasocial{
+	background: gray;
+	width: 40%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+nav#social {
+	width: 290px;
+	margin: 0px;
+	padding-top: 12px;
+}
+
+.icosocial{
+	width: 27px;
+	height: 27px;
+	margin: 0px 21px 0px 0px;
+
+}
+#icosocial1{
+	margin-left: 0px;
+	background-size: 27px auto;
+}
+
+#icosocial2{
+	background-size: 27px auto;
+}
+
+#icosocial3{
+	background-size: 27px auto;
+}
+
+#icosocial4{
+	background-size: 27px auto;
+}
+
+
+#blqshows{
+	width: 848px;
+	margin: auto;
+	padding: 10px 10px 8px 10px;
+}
+
+.imgshow{
+	width: 404px;
+	margin: 4px;
+}
+
+
+article.showsection{
+	
+	height: 400px;
+	
+}
+
+
+
+div.fotoshow{
+	width: 550px;
+	height: 322px;
+	margin-top: 38px;
+	margin-left: 80px;
+}
+
+#fotoshow1,#fotoshow2,#fotoshow3,#fotoshow4{
+	
+	background-size: 550px 322px;
+}
+
+
+
+h2.showtitulo{
+	padding: 32px 0px 12px;
+	font-size: 32px;
+	
+}
+
+p.showparrafo{
+	font-size: 22px;
+
+}
+
+
+p.showhorario{
+	font-size: 16px;
+	margin-top: 14px;
+}
+
+
+#show4,.showsection2{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+footer{
+	margin-top: -25px;
+
+}
+
+}
+
+@media screen and (min-width: 1600px) {
+
+
+
+	
+nav#principal{
+	width: 54%;
+	height: 50px;
+}
+
+#barrasocial{
+	height: 50px;
+}
+
+
+nav#social{
+	width: 350px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.icosocial{
+	position: absolute;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+}
+
+
+
+#icosocial1{
+	background-size: 30px auto;
+	left: 40px;
+}
+
+#icosocial2{
+	left: 110px;
+	background-size: 30px auto;
+
+}
+
+#icosocial3{
+	left: 180px;
+	background-size: 30px auto;
+}
+
+#icosocial4{
+	left: 250px;
+	background-size: 30px auto;
+}
+
+#shows{
+	padding: 80px 0px 78px;
+}
+
+#blqshows{
+	width: 1004px;
+	margin: auto;
+	padding: 10px 10px 8px 10px;
+}
+
+.imgshow{
+	width: 482px;
+	margin: 4px;
+}
+
+}
